@@ -53,6 +53,7 @@ body {
     position: relative;
 }
 
+
 .sectionHeader {
     position: absolute;
     top: 50%;
@@ -77,6 +78,7 @@ body {
     color: #41454e;
     font-size: 30px;
     margin-bottom: 20px;
+
 }
 
 .boutonV{
