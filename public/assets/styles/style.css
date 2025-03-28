@@ -12,24 +12,20 @@ body {
 }
 
 .Menu {
+    position: fixed; /* Changement de sticky à fixed pour un comportement plus cohérent */
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000; /* Assurez-vous que la navbar soit au-dessus des autres éléments */
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px 50px;
     background-color: #695aa622;
-    position: sticky; 
-    top: 0;
-    width: 100%;
-    z-index: 1000;
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
     transition: box-shadow 0.3s ease;
 }
-
-.Menu:hover {
-    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-}
-
 .menuD1 h3 {
     color: #fff;
     font-size: 24px;
@@ -504,7 +500,6 @@ footer textarea {
 
 footer button {
     background-color: transparent;
-    
     color: #6a5acd;
     border: 1px solid #6a5acd;
     padding: 12px 25px;
