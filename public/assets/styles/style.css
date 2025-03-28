@@ -592,3 +592,6 @@ footer hr {
         width: 250px;
         height: 350px;
     }
+    .title {
+        font-size: 28px;
+    }
