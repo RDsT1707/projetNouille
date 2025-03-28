@@ -625,3 +625,18 @@ footer hr {
     .pricing-title {
         font-size: 28px;
     }
+     .hire-me-container {
+        flex-direction: column;
+        height: auto;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .hire-me-text {
+        margin-left: 0;
+        margin-bottom: 15px;
+    }
+
+    .hire-me-button {
+        margin-right: 0;
+    }
