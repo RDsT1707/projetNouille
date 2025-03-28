@@ -26,8 +26,9 @@ body {
     -webkit-backdrop-filter: blur(10px);
     transition: box-shadow 0.3s ease;
 }
+
 .menuD1 h3 {
-    color: #fff;
+    color: #8a7fff;
     font-size: 24px;
     font-weight: bold; 
 }
@@ -38,7 +39,8 @@ body {
 }
 
 .menuD2 p {
-    color: #695aa6;
+    color: #42464d
+    ;
     text-transform: capitalize;
 }
 
