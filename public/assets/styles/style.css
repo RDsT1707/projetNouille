@@ -59,32 +59,36 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
-    color: #fff;
 }
 
+.HI{
+    margin-top: 50px;
+    opacity: 40%;
+}
 .div-header h1 {
-    color: rgb(0, 0, 65);
+    color: #41454e;
+    font-weight:800;
     text-align: left;
     font-size: 48px;
     margin-bottom: 10px;
 }
 
 .div-header p {
-    font-size: 24px;
+    color: #41454e;
+    font-size: 30px;
     margin-bottom: 20px;
+
 }
 
-.div-header button {
+.boutonV{
     background-color: #8a7fff;
     color: white;
     border: none;
     padding: 10px 20px;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
+    border-radius: 15px;
+    margin-right: 100px;
+  
 }
 
-.div-header button:hover {
-    background-color: #7366ff;
-}
+
 
