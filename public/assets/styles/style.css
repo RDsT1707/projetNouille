@@ -580,3 +580,6 @@ footer hr {
         font-size: 24px;
         text-align: center;
     }
+    .boutonV {
+        margin-right: 0;
+    }
