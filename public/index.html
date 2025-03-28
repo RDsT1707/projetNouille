@@ -24,6 +24,7 @@
             </div>
         </section>
         <img class="img-header" src="./assets/img/header.jpg" alt="">
+        <div class="block"></div>
         <section class="sectionHeader">
             <div class="div-header">
                 <h1 class="HI"> Hi! </h1> 
@@ -34,130 +35,176 @@
         </section>
     </nav>
 
-    <section class="sectionAM">
-        <img class="imgMan" src="./assets/img/man.png" alt="">
-        <p class="pH3">>who am i ?</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam explicabo temporibus voluptas totam nobis magnam cumque quos dolores incidunt aliquam asperiores at, iste aliquid esse, sit obcaecati laborum, soluta officiis qui vitae impedit rerum! Explicabo veritatis veniam ipsa quaerat dolore.</p>
-        <button class="boutonD">Download CV</button>
+    <section class="about-me-container">
+        <img src="./assets/img/man.png" alt="Profile" class="profile-image">
+        <div class="content">
+            <p class="subtitle">Who Am I?</p>
+            <h3 class="title">About Me</h3>
+            <p class="description">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae aliquid ad provident 
+                aut fuga animi soluta quae eos non cupiditate voluptates dolorem, doloremque quos dicta 
+                quibusdam impedit iure nemo a iste culpa! Quasi quibusdam hic recusandae delectus velit officiis 
+                explicabo voluptatibus! Nemo esse similique, voluptates labore distinctio, placeat explicabo 
+                facilis molestias, blanditiis culpa iusto voluptatem ratione eligendi a, quia temporibus velit 
+                vero ipsa sint ex voluptatum expedita aliquid! Debitis, nam!
+            </p>
+            <button class="download-btn">Download CV</button>
+        </div>
     </section>
 
-    <section>
-        <p class="pH3">What i do ?</p>
-        <h3 class="titreSection">Service</h3>
-        <!-- ajout 4 img ici  -->
-         <div class="imgService"> <img src="./assets/img/pencil-case.svg" alt=""></div>
-         <img class="imgService" src="./assets/img/responsive.svg" alt=""></div>
-         <img class="imgService" src="./assets/img/toolbox.svg" alt=""></div>
-         <img class="imgService" src="./assets/img/analytics.svg" alt=""></div>
+    <section class="services-container">
+        <p class="services-subtitle">What I Do?</p>
+        <h3 class="services-title">Service</h3>
+        
+        <div class="services-grid">
+            <div class="service-item">
+                <img class="service-icon" src="./assets/img/pencil-case.svg" alt="Adipiscing">
+                <h5 class="service-title">Adipiscing</h5>
+            </div>
+            
+            <div class="service-item">
+                <img class="service-icon" src="./assets/img/responsive.svg" alt="Sapiente">
+                <h5 class="service-title">Sapiente</h5>
+            </div>
+            
+            <div class="service-item">
+                <img class="service-icon" src="./assets/img/toolbox.svg" alt="Placeat">
+                <h5 class="service-title">Placeat</h5>
+            </div>
+            
+            <div class="service-item">
+                <img class="service-icon" src="./assets/img/analytics.svg" alt="Iusto">
+                <h5 class="service-title">Iusto</h5>
+            </div>
+        </div>
     </section>
     
-    <section>
-        <p class="pH3">What i did ?</p>
-        <h3 class="titreSection">portfolio</h3>
-        <!-- ajout 3 img ici  -->
-         <img class="imgPortfolio" src="./assets/img/folio-1.jpg" alt=""></div>
-         <img class="imgPortfolio" src="./assets/img/folio-2.jpg" alt=""></div>
-         <img class="imgPortfolio" src="./assets/img/folio-3.jpg" alt=""></div>
-    </section>
-
-    <section>
-        <p class="pH3">how much i charge ?</p>
-        <h3 class="titreSection">My pricing</h3>
-        <!-- ajout 3 img dans les divs ici  -->
-         <div>
-            <!-- ici -->
-             <img src="./assets/img/scooter.svg" alt="">
-            <h4 class="titrePrice">free</h4>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat ad ut sequi autem commodi alias porro cupiditate unde maiores iure.</p>
-            <p>$0.00/Month</p>
-            <button class="boutonPrice">subscribe</button>
-         </div>
-         <div>
-            <!-- ici -->
-             <img src="./assets/img/shipped.svg" alt="">
-            <h4 class="titrePrice">basic</h4>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat ad ut sequi autem commodi alias porro cupiditate unde maiores iure.</p>
-            <p>$9.99/Month</p>
-            <button class="boutonPrice">subscribe</button>
-         </div>
-         <div>
-            <!-- ici -->
-             <img src="./assets/img/startup.svg" alt="">
-            <h4 class="titrePrice">premium</h4>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat ad ut sequi autem commodi alias porro cupiditate unde maiores iure.</p>
-            <p>$99.9/Month</p>
-            <button class="boutonPrice">subscribe</button>
-         </div>
-    </section>
-
-    <section>
-        <div>
-            <p>want to works with me?</p>
-            <p>always feel free to contact & hire me</p>
+    <section class="portfolio-container">
+        <p class="portfolio-subtitle">What I Did?</p>
+        <h3 class="portfolio-title">Portfolio</h3>
+        
+        <div class="portfolio-gallery">
+            <img class="portfolio-image" src="./assets/img/folio-1.jpg" alt="Portfolio Image 1">
+            <img class="portfolio-image" src="./assets/img/folio-2.jpg" alt="Portfolio Image 2">
+            <img class="portfolio-image" src="./assets/img/folio-3.jpg" alt="Portfolio Image 3">
         </div>
-        <button class="boutonHire">Hire me</button>
     </section>
 
-    <section> <!-- div horizontal--> 
+    <section class="pricing-container">
+        <p class="pricing-subtitle">How Much I Charge?</p>
+        <h3 class="pricing-title">My Pricing</h3>
+        
+        <div class="pricing-plans">
+            <div class="pricing-plan">
+                <img class="pricing-icon" src="./assets/img/scooter.svg" alt="Free Plan">
+                <h4 class="pricing-plan-title">Free</h4>
+                <p class="pricing-description">
+                    Accusamus reprehenderit <br>dolorem quos <br> neque fugiat <br> quibusdam accusamus  <br>&#10060; <br>&#10060;
+                </p>
+                <p class="pricing-price">$0.00/Month</p>
+                <button class="pricing-button">Subscribe</button>
+            </div>
+            
+            <div class="pricing-plan">
+                <img class="pricing-icon" src="./assets/img/shipped.svg" alt="Basic Plan">
+                <h4 class="pricing-plan-title">Basic</h4>
+                <p class="pricing-description">
+                    Accusamus reprehenderit <br>dolorem quos <br> neque fugiat <br> quibusdam accusamus <br>laboriosam inventore <br>&#10060; 
+                </p>
+                <p class="pricing-price">$9.99/Month</p>
+                <button class="pricing-button">Subscribe</button>
+            </div>
+            
+            <div class="pricing-plan">
+                <img class="pricing-icon" src="./assets/img/startup.svg" alt="Premium Plan">
+                <h4 class="pricing-plan-title">Premium</h4>
+                <p class="pricing-description">
+                    Accusamus reprehenderit <br> provident dolorem <br> quos neque <br> fugiat quibusdam accusamus <br>laboriosam inventore <br> Lorem, ipsum. <br>
+                </p>
+                <p class="pricing-price">$99.90/Month</p>
+                <button class="pricing-button">Subscribe</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="hire-me-container">
+        <div class="hire-me-text">
+            <p class="hire-me-title">Want to work with me?</p>
+            <h3 class="hire-me-subtitle">Always feel free to Contact & Hire me</h3>
+        </div>
+        <button class="hire-me-button">Hire Me</button>
+    </section>
+
+    <section > <!-- div horizontal--> 
         <p class="pH3">What think client about Me ?</p>
         <h3 class="titreSection">testmonial</h3>
         <!-- ajout 2 img ici  -->
-         <div>
+        <div class="divH">
+         <div class="divH1">
             <!-- ici -->
-             <img class="imgT" src="./assets/img/avatar2.jpg" alt="">
-             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum et, animi ea distinctio ipsum sunt.</p>
+             <img class="imgT1" src="./assets/img/avatar2.jpg" alt="">
+             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta doloremque in sunt molestias soluta! In inventore illum sit laboriosam sed nam atque voluptatibus fuga ipsa!</p> <br>
              <p>emil reb</p>
          </div>
-         <div>
+         <div class="divH2">
             <!-- ici -->
-             <img class="imgT" src="./assets/img/avatar3.jpg" alt="">
-             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum et, animi ea distinctio ipsum sunt.</p>
+             <img class="imgT2" src="./assets/img/avatar3.jpg" alt="">
+             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad ab veritatis doloremque blanditiis quisquam ut magnam molestias, fugit hic, quod nesciunt alias praesentium! Quaerat, nihil.</p>
+             <br>
              <p>emily reb</p>
          </div>
+        </div>
     </section>
 
-    <section> <!-- div vertical--> 
-        <p class="pH3">Recent post ?</p>
-        <h3 class="titreSection">blog</h3>
-        <!-- ajout 2 img ici  -->
+    <section class="sectionT">
+        <p class="pH31">Recent post ?</p>
+        <h3 class="titreSection1">blog</h3>
+        
         <div>
-            <!-- ici -->
-             <img class="imgB" src="./assets/img/img-1.jpg" alt="">
-            <h6 class="titreB">consecteur adipisicing elit</h6>
-            <p>by: admin <i class="fa-regular fa-heart"></i> 234 <i class="fa-thin fa-message"></i> 123</p>
-             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum et, animi ea distinctio ipsum sunt.</p>
-             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum et, animi ea distinctio ipsum sunt.</p> <!--bold avec hr entre les p-->
-             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum et, animi ea distinctio ipsum sunt.</p>
-            <a href=""> read more  >></a>
-         </div>
-         <div>
-            <!-- ici -->
-             <img class="imgB" src="./assets/img/img-2.jpg" alt="">
-            <h6 class="titreB">explicabo illo</h6>
-            <p>by: admin <i class="fa-regular fa-heart"></i> 456 <i class="fa-thin fa-message"></i> 264</p>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum et, animi ea distinctio ipsum sunt.</p>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum et, animi ea distinctio ipsum sunt.</p> <!--bold avec hr entre les p-->
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum et, animi ea distinctio ipsum sunt.</p>
-           <a href=""> read more  >></a>
-         </div>
+            <img class="imgB1" src="./assets/img/img-1.jpg" alt="">
+            <div class="content1">
+                <h6 class="titreB1">consecteur adipisicing elit</h6>
+                <p>by: admin <i class="fa-regular fa-heart"></i> 234 <i class="fa-thin fa-message"></i> 123</p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum et, animi ea distinctio ipsum sunt.</p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum et, animi ea distinctio ipsum sunt.</p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum et, animi ea distinctio ipsum sunt.</p>
+                <a href="">read more >></a>
+            </div>
+        </div>
+        
+        <div>
+            <img class="imgB1" src="./assets/img/img-2.jpg" alt="">
+            <div class="content1">
+                <h6 class="titreB1">explicabo illo</h6>
+                <p>by: admin <i class="fa-regular fa-heart"></i> 456 <i class="fa-thin fa-message"></i> 264</p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum et, animi ea distinctio ipsum sunt.</p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum et, animi ea distinctio ipsum sunt.</p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum et, animi ea distinctio ipsum sunt.</p>
+                <a href="">read more >></a>
+            </div>
+        </div>
     </section>
 
     <footer>
-        <form>
-            <label for="write something">write something</label>
-            <input type="text" name="" id="">
-            <button type="submit">send message</button>
-        </form>
+        <p class="pH3">How can you communicate ?</p>
+        <h3 class="titreSection">Contact Me</h3>
+        <textarea placeholder="Write Something"></textarea>
+        <button >Send Message</button>
         <hr>
-        <div>
-            <p>copyright 2025 &copy; DevRUD</p>
-            <i class="fa-brands fa-facebook-f"></i>
-            <i class="fa-brands fa-x-twitter"></i>
-            <i class="fa-brands fa-google-plus-g"></i>
-            <i class="fa-brands fa-pinterest"></i>
-            <i class="fa-brands fa-instagram"></i>
-            <i class="fa-solid fa-rss"></i>          
+        <section class="hrfooter">
+        <div class="copyright">
+            Copyright 2022 © DevCRUD
         </div>
+
+        <div class="social-icons">
+            <a href="#" class="facebook">f</a>
+            <a href="#" class="twitter">t</a>
+            <a href="#" class="google">g+</a>
+            <a href="#" class="pinterest">p</a>
+            <a href="#" class="instagram">ig</a>
+            <a href="#" class="rss">rss</a>
+        </div>
+    </section>
     </footer>
 </body>
 </html>
