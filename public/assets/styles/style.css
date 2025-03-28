@@ -640,3 +640,12 @@ footer hr {
     .hire-me-button {
         margin-right: 0;
     }
+    .divH {
+        flex-direction: column;
+        gap: 70px;
+    }
+
+    .divH1, .divH2 {
+        position: relative;
+        padding: 60px 25px 25px;
+    }
