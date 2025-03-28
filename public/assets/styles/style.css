@@ -563,3 +563,6 @@ footer hr {
     .Menu {padding: 1px 15px;
         flex-direction: column;
     }
+    .menuD1 h3 {
+        font-size: 20px;
+    }
