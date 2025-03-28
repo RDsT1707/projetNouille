@@ -605,3 +605,16 @@ footer hr {
     .services-title {
         font-size: 28px;
     }
+    .portfolio-gallery {
+        grid-template-columns: 1fr;
+    }
+
+    .portfolio-title {
+        font-size: 28px;
+    }
+
+    /* Pricing */
+    .pricing-plans {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
