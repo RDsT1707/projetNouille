@@ -39,8 +39,7 @@ body {
 }
 
 .menuD2 p {
-    color: #42464d
-    ;
+    color: #42464d;
     text-transform: capitalize;
 }
 
@@ -64,7 +63,7 @@ body {
     opacity: 40%;
 }
 .div-header h1 {
-    color: #41454e;
+    color: #42464d;
     font-weight:800;
     text-align: left;
     font-size: 48px;
@@ -119,7 +118,7 @@ body {
 .title {
     font-size: 36px;
     margin-top: 0;
-    color: #6E63E3;
+    color: #8a7fff;
     
 }
 
@@ -134,7 +133,7 @@ body {
     border: none;
     padding: 10px 20px;
     border-radius: 15px;
-    border: solid 1px #6E63E3 ;
+    border: solid 1px #8a7fff ;
     margin-right: 100px;
     margin-top: 20px;
 }
@@ -159,7 +158,7 @@ body {
 .services-title {
     font-size: 36px;
     margin-top: 0;
-    color: #6E63E3;
+    color: #8a7fff;
     margin-bottom: 40px;
 }
 
@@ -187,7 +186,7 @@ body {
 .service-title {
     font-size: 18px;
     font-weight: bold;
-    color: #6E63E3;
+    color: #8a7fff;
 
 }
 
@@ -212,7 +211,7 @@ body {
 }
 
 .portfolio-title {
-    color: #6E63E3;
+    color: #8a7fff;
     font-size: 36px;
     margin-top: 0;
     margin-bottom: 40px;
@@ -246,7 +245,7 @@ body {
 }
 
 .pricing-title {
-    color: #6E63E3;
+    color: #8a7fff;
     font-size: 36px;
     margin-top: 0;
     margin-bottom: 40px;
@@ -269,7 +268,7 @@ body {
 }
 
 .pricing-plan-title {
-    color: #6E63E3;
+    color: #8a7fff;
     font-size: 24px;
     margin-bottom: 15px;
     font-weight: bold;
@@ -292,7 +291,7 @@ body {
 }
 
 .pricing-button {
-    background-color: #6E63E3;
+    background-color: #8a7fff;
     color: white;
     border: none;
     padding: 10px 20px;
@@ -307,7 +306,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #6a5acd; /* Matches the purple background in the image */
+    background-color: #8a7fff; /* Matches the purple background in the image */
     color: white;
     padding: 20px 40px;
     width: 100%;
