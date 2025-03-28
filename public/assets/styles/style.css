@@ -618,3 +618,10 @@ footer hr {
         grid-template-columns: 1fr;
         gap: 20px;
     }
+     .pricing-plan {
+        padding: 20px;
+    }
+
+    .pricing-title {
+        font-size: 28px;
+    }
