@@ -405,7 +405,7 @@ section {
 
 .divH1 p:last-child, .divH2 p:last-child {
     font-weight: bold;
-    color: #007BFF;
+    color: #8a7fff;
     font-size: 14px;
 }
 /* Reset and base styles */
@@ -425,7 +425,7 @@ section {
 }
 
 .titreSection1 {
-    color: #6a5acd;
+    color: #8a7fff;
     text-transform: uppercase;
     font-size: 36px;
     margin-bottom: 30px;
@@ -451,7 +451,7 @@ section {
 }
 
 .titreB1 {
-    color: #6a5acd;
+    color: #8a7fff;
     font-size: 22px;
     margin-bottom: 10px;
 }
@@ -469,7 +469,7 @@ section {
 }
 
 .content1 a {
-    color: #6a5acd;
+    color: #8a7fff;
     text-decoration: none;
     font-weight: bold;
 }
@@ -501,8 +501,8 @@ footer textarea {
 
 footer button {
     background-color: transparent;
-    color: #6a5acd;
-    border: 1px solid #6a5acd;
+    color: #8a7fff;
+    border: 1px solid #8a7fff;
     padding: 12px 25px;
     border-radius: 5px;
     font-size: 16px;
@@ -549,10 +549,6 @@ footer hr {
     color: #888;
     font-size: 14px;
 }
-.pH3{
+ .pH3{
      text-align: center;
-}
-.titreSection{
-    text-align: center;
-
 }
