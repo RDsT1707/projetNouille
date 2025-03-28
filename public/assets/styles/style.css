@@ -374,22 +374,21 @@ section {
     gap: 80px;
 }
 .divH1, .divH2 {
-    display: flex;
     align-items: center;
     background: white;
     border: 1px solid black; 
-    padding: 20px;
+    padding: 25px;
 }
 
 .divH1 p, .divH2 p {
     text-align: left; 
-    margin-bottom: 20px;
+    margin-left: 40px;
 }
 
 .imgT1 {
     position: absolute;
     top: 1;
-    left: 10px;
+    left: 75px;
     width: 80px;
     height: 80px;
     border-radius: 50%;
@@ -399,7 +398,7 @@ section {
 .imgT2 {
     position: absolute;
     top: 1;
-    right: inherit; 
+    left: 630px;
     width: 80px;
     height: 80px;
     border-radius: 50%;
@@ -410,6 +409,83 @@ section {
 .divH1 p:last-child, .divH2 p:last-child {
     font-weight: bold;
     color: #007BFF;
-    margin-top: 10px;
+    font-size: 14px;
+}
+/* Reset and base styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    font-family: Arial, sans-serif;
+}
+
+.pH3 {
+    color: #888;
     font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.titreSection {
+    color: #6a5acd;
+    text-transform: uppercase;
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+/* Blog post container */
+section > div {
+    display: flex;
+    margin-bottom: 30px;
+    border: 1px solid #e0e0e0;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.imgB {
+    width: 40%;
+    object-fit: cover;
+}
+
+.content {
+    width: 60%;
+    padding: 20px;
+}
+
+.titreB {
+    color: #6a5acd;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.content > p:first-of-type {
+    color: #888;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.content > p:not(:first-of-type) {
+    color: #666;
+    margin-bottom: 10px;
+    line-height: 1.6;
+}
+
+.content a {
+    color: #6a5acd;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.content a:hover {
+    text-decoration: underline;
+}
+
+/* Icons */
+.fa-heart, .fa-message {
+    margin: 0 5px;
+    color: #888;
 }
