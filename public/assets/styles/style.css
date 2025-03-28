@@ -143,7 +143,6 @@ body {
 
 
 /* sevice/ */
-/* Services Section Styles */
 .services-container {
     max-width: 1200px;
     margin: 0 auto;
@@ -177,13 +176,8 @@ body {
     align-items: center;
     padding: 20px;
     background-color: #f9f9f9;
-    border-radius: 10px;
-    transition: transform 0.3s ease;
 }
 
-.service-item:hover {
-    transform: translateY(-10px);
-}
 
 .service-icon {
     width: 80px;
@@ -194,7 +188,7 @@ body {
 .service-title {
     font-size: 18px;
     font-weight: bold;
-    color: #333;
+    color: #6E63E3;
 
 }
 
@@ -234,14 +228,8 @@ body {
     width: 100%;
     height: 300px;
     object-fit: cover;
-    border-radius: 10px;
-    transition: transform 0.3s ease;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-.portfolio-image:hover {
-    transform: scale(1.05);
-}
 
 
 
@@ -341,6 +329,8 @@ body {
     color: white;
     padding: 20px 40px;
     width: 100%;
+    height: 120px;
+    margin-top: 40px;
 }
 
 .hire-me-text {
@@ -350,16 +340,18 @@ body {
 }
 
 .hire-me-title {
-    font-size: 16px;
+    font-size: 13px;
     margin-bottom: 8px;
-    font-weight: bolder;
-    font-weight: 900px;
+    font-weight: 900;
 }
 
 .hire-me-subtitle {
-    font-size: 22px;
-    font-weight: lighter;
+    font-size: 12px;
+    font-weight: 200;
+    opacity: 0.8;
 }
+
+
 
 .hire-me-button {
     background-color: white;
