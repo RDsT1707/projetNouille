@@ -90,5 +90,288 @@ body {
   
 }
 
+body {
+    font-family: Arial, sans-serif;
+}
+
+.about-me-container {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin-bottom: 120px;
+}
+
+.profile-image {
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+}
+
+.content {
+    flex: 1;
+}
+
+.subtitle {
+    color: #333;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.title {
+    font-size: 36px;
+    margin-top: 0;
+    color: #6E63E3;
+    
+}
+
+.description {
+    color: #666;
+    line-height: 1.6;
+}
+
+.download-btn {
+    background-color: white;
+    color: #6E63E3;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 15px;
+    border: solid 1px #6E63E3 ;
+    margin-right: 100px;
+    margin-top: 20px;
+}
+
+
+/* sevice/ */
+/* Services Section Styles */
+.services-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.services-subtitle {
+    color: #333;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.services-title {
+    font-size: 36px;
+    margin-top: 0;
+    color: #6E63E3;
+    margin-bottom: 40px;
+}
+
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}
+
+.service-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.service-item:hover {
+    transform: translateY(-10px);
+}
+
+.service-icon {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 15px;
+}
+
+.service-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+
+}
+
+
+/* portfolio */
+
+
+/* Portfolio Section Styles */
+.portfolio-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.portfolio-subtitle {
+    color: #6E63E3;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.portfolio-title {
+    font-size: 36px;
+    margin-top: 0;
+    color: #333;
+    margin-bottom: 40px;
+}
+
+.portfolio-gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.portfolio-image {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.portfolio-image:hover {
+    transform: scale(1.05);
+}
+
+
+
+
+/* price  */
+
+
+
+/* Pricing Section Styles */
+.pricing-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.pricing-subtitle {
+    color: #6E63E3;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.pricing-title {
+    font-size: 36px;
+    margin-top: 0;
+    color: #333;
+    margin-bottom: 40px;
+}
+
+.pricing-plans {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.pricing-plan {
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    padding: 30px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.pricing-plan:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.pricing-icon {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 20px;
+}
+
+.pricing-plan-title {
+    color: #6E63E3;
+    font-size: 24px;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+}
+
+.pricing-description {
+    color: #666;
+    margin-bottom: 15px;
+    min-height: 100px;
+}
+
+.pricing-price {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.pricing-button {
+    background-color: #6E63E3;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease;
+}
+
+.pricing-button:hover {
+    background-color: #5a4fd3;
+}
+/* .hire-me  */
+.hire-me-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #6a5acd; /* Matches the purple background in the image */
+    color: white;
+    padding: 20px 40px;
+    width: 100%;
+}
+
+.hire-me-text {
+    display: flex;
+    flex-direction: column;
+    margin-left: 150px;
+}
+
+.hire-me-title {
+    font-size: 16px;
+    margin-bottom: 8px;
+    font-weight: bolder;
+    font-weight: 900px;
+}
+
+.hire-me-subtitle {
+    font-size: 22px;
+    font-weight: lighter;
+}
+
+.hire-me-button {
+    background-color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bolder;
+    font-weight: 500px;
+    margin-right: 240px;
+}
+
+
 
 
