@@ -155,6 +155,7 @@ body {
     text-transform: uppercase;
     font-size: 14px;
     margin-bottom: 10px;
+    margin-top: 50px;
 }
 
 .services-title {
@@ -209,6 +210,7 @@ body {
     text-transform: uppercase;
     font-size: 14px;
     margin-bottom: 10px;
+    margin-top: 100px;
 }
 
 .portfolio-title {
@@ -242,6 +244,7 @@ body {
     text-transform: uppercase;
     font-size: 14px;
     margin-bottom: 10px;
+    margin-top: 100px;
 }
 
 .pricing-title {
@@ -345,6 +348,68 @@ body {
     margin-right: 240px;
 }
 
+/* Style global */
+section {
+    text-align: center;
+    padding: 40px 10%;
+    font-family: Arial, sans-serif;
+}
 
+/* Style du sous-titre */
+.pH3 {
+    color: #777;
+    font-size: 16px;
+}
 
+/* Style du titre */
+.titreSection {
+    font-size: 28px;
+    font-weight: bold;
+    color: #6B4FC7;
+    text-transform: uppercase;
+    margin-bottom: 80px;
+}
+.divH{
+    display: flex;
+    gap: 80px;
+}
+.divH1, .divH2 {
+    display: flex;
+    align-items: center;
+    background: white;
+    border: 1px solid black; 
+    padding: 20px;
+}
 
+.divH1 p, .divH2 p {
+    text-align: left; 
+    margin-bottom: 20px;
+}
+
+.imgT1 {
+    position: absolute;
+    top: 1;
+    left: 10px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-left: 15px; 
+}
+.imgT2 {
+    position: absolute;
+    top: 1;
+    right: inherit; 
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-left: 15px; 
+}
+
+.divH1 p:last-child, .divH2 p:last-child {
+    font-weight: bold;
+    color: #007BFF;
+    margin-top: 10px;
+    font-size: 16px;
+}
