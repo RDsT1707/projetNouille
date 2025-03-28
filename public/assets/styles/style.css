@@ -412,26 +412,22 @@ section {
     font-size: 14px;
 }
 /* Reset and base styles */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 
-section {
+
+.sectionT {
     max-width: 1200px;
     margin: 0 auto;
     padding: 40px 20px;
     font-family: Arial, sans-serif;
 }
 
-.pH3 {
+.pH31 {
     color: #888;
     font-size: 16px;
     margin-bottom: 10px;
 }
 
-.titreSection {
+.titreSection1 {
     color: #6a5acd;
     text-transform: uppercase;
     font-size: 36px;
@@ -439,53 +435,120 @@ section {
 }
 
 /* Blog post container */
-section > div {
+.sectionT > div {
     display: flex;
     margin-bottom: 30px;
     border: 1px solid #e0e0e0;
     box-shadow: 0 4px 6px rgba(0,0,0,0.1);
 }
 
-.imgB {
+.imgB1 {
     width: 40%;
     object-fit: cover;
 }
 
-.content {
+.content1 {
     width: 60%;
     padding: 20px;
+    text-align: left;
 }
 
-.titreB {
+.titreB1 {
     color: #6a5acd;
     font-size: 22px;
     margin-bottom: 10px;
 }
 
-.content > p:first-of-type {
+.content1 > p:first-of-type {
     color: #888;
     font-size: 14px;
     margin-bottom: 15px;
 }
 
-.content > p:not(:first-of-type) {
+.content1 > p:not(:first-of-type) {
     color: #666;
     margin-bottom: 10px;
     line-height: 1.6;
 }
 
-.content a {
+.content1 a {
     color: #6a5acd;
     text-decoration: none;
     font-weight: bold;
 }
 
-.content a:hover {
+.content1 a:hover {
     text-decoration: underline;
 }
 
-/* Icons */
-.fa-heart, .fa-message {
-    margin: 0 5px;
+
+
+/* footer  */
+footer {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    font-family: Arial, sans-serif;
+    position: relative;
+}
+
+footer textarea {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    resize: vertical;
+    font-size: 16px;
+}
+
+footer button {
+    background-color: transparent;
+    color: #6a5acd;
+    border: 1px solid #6a5acd;
+    padding: 12px 25px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+footer button:hover {
+    background-color: #6a5acd;
+    color: white;
+}
+
+footer hr {
+    border: none;
+    border-top: 1px solid #e0e0e0;
+    margin: 30px 0;
+}
+
+.hrfooter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social-icons {
+    display: flex;
+    
+    gap: 5px;
+}
+
+.social-icons a {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: #888;
+    text-decoration: none;
+}
+
+.copyright {
+    color: #888;
+    font-size: 14px;
 }
