@@ -560,4 +560,6 @@ footer hr {
 
 @media screen and (max-width: 768px){
     /* Menu Styles */
-    .Menu {
+    .Menu {padding: 1px 15px;
+        flex-direction: column;
+    }
