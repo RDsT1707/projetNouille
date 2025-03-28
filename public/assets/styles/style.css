@@ -598,3 +598,10 @@ footer hr {
     .download-btn {
         margin-right: 0;
     }
+    .services-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .services-title {
+        font-size: 28px;
+    }
