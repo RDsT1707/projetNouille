@@ -595,3 +595,6 @@ footer hr {
     .title {
         font-size: 28px;
     }
+    .download-btn {
+        margin-right: 0;
+    }
