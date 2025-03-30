@@ -228,6 +228,68 @@ body {
     height: 300px;
     object-fit: cover;
 }
+
+.portfolio-item {
+    position: relative;
+    overflow: hidden;
+    height: 300px;
+    cursor: pointer;
+}
+
+.portfolio-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+}
+
+.portfolio-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(138, 127, 255, 0.9); /* Utilise la couleur #8a7fff avec transparence */
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+.portfolio-item:hover .portfolio-image {
+    transform: scale(1.1);
+}
+
+.portfolio-item:hover .portfolio-overlay {
+    opacity: 1;
+}
+
+.portfolio-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.portfolio-description {
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.portfolio-category {
+    display: inline-block;
+    background-color: white;
+    color: #8a7fff;
+    padding: 5px 10px;
+    border-radius: 15px;
+    margin-top: 15px;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
 /* price  */
 .pricing-container {
     max-width: 1200px;
